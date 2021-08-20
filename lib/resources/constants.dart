@@ -1,0 +1,27 @@
+import 'package:flutter/material.dart';
+
+const Color kWhiteColor = Colors.white;
+const Color kBlackColor = Colors.black;
+const Color kAppBackgroundColor = Color(0xFF22223B);
+const Color kAppbarColor = Color(0xff679289);
+const Color kDrawerColor = Color(0xff679289);
+const Color kMainMenuItemColor = Color(0xff5DD39E);
+const kJacRemoteBackgroundColor = Color(0xff1D1F20);
+const kStrongRemoteBackgroundColor = Color(0xffbac1ac);
+const kSunplusRemoteeBackgroundColor = Color(0xff434245);
+const kCarrozzeriaRemoteBackgroundColor = Color(0xff151515);
+const kImageRemotesBackgroundColor = Color(0xffcbcbcb);
+const Color kButtonBackgroundColor = Color(0xDD000000);
+const Color kJacButtonBackgroundColor = Color(0xAD606568);
+const Color kLGButtonBackgroundColor_1 = Color(0xFFE3E3E3);
+const Color kLGButtonBackgroundColor_2 = Color(0xFF2E3231);
+const Color kLGButtonBackgroundColor_3 = Color(0xFF9BB2DC);
+const Color kCarrozzeriaButtonBackgroundColor = Color(0xFF808187);
+const Color kMP3ButtonBackgroundColor = Color(0xff2BB1E8);
+const double kIconSize = 60.0;
+const double kButtonBackgroundRadius1 = 15.0;
+const double kButtonBackgroundRadius2 = 35.0;
+const double kButtonBackgroundRadius3 = 20.0;
+const double kButtonCaptionFontSize = 30.0;
+const double kAppbarHeight = 55.0;
+const FontWeight kButtonCaptionFontWeight = FontWeight.bold;
