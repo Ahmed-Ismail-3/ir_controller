@@ -6,7 +6,7 @@ Custom Hex Code trigger using IR Blaser.
 
 ## Description
 
-IR Controller App makes it easy to control IR devices.
+IR Controller Flutter App makes it easy to control IR devices.
 Just get the IR remote code and feel free to modify the app with more remotes.
 Easy to use and simple UI.
 For Android Only, Doesn't support IOS in current time.
