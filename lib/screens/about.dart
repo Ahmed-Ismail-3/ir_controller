@@ -23,8 +23,7 @@ class About extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            FittedBox(
-              fit: BoxFit.scaleDown,
+            Expanded(
               child: SvgPicture.asset(
                 'images/remote.svg',
                 semanticsLabel: 'App Logo',
@@ -32,29 +31,37 @@ class About extends StatelessWidget {
                 height: 150.0,
               ),
             ),
-            TextButtonWidget(
-              buttonCaption: 'IR Controller App',
-              buttonCaptionColour: kWhiteColor,
-              buttonFontSize: kButtonCaptionFontSize,
-              buttonFontWeight: kButtonCaptionFontWeight,
+            Expanded(
+              child: TextButtonWidget(
+                buttonCaption: 'IR Controller App',
+                buttonCaptionColour: kWhiteColor,
+                buttonFontSize: kButtonCaptionFontSize,
+                buttonFontWeight: kButtonCaptionFontWeight,
+              ),
             ),
-            TextButtonWidget(
-              buttonCaption: 'Version 1.0',
-              buttonCaptionColour: kWhiteColor,
-              buttonFontSize: kButtonCaptionFontSize,
-              buttonFontWeight: kButtonCaptionFontWeight,
+            Expanded(
+              child: TextButtonWidget(
+                buttonCaption: 'Version 1.0',
+                buttonCaptionColour: kWhiteColor,
+                buttonFontSize: kButtonCaptionFontSize,
+                buttonFontWeight: kButtonCaptionFontWeight,
+              ),
             ),
-            TextButtonWidget(
-              buttonCaption: 'Developed By Ahmed Ismail',
-              buttonCaptionColour: kWhiteColor,
-              buttonFontSize: kButtonCaptionFontSize,
-              buttonFontWeight: kButtonCaptionFontWeight,
+            Expanded(
+              child: TextButtonWidget(
+                buttonCaption: 'Developed By Ahmed Ismail',
+                buttonCaptionColour: kWhiteColor,
+                buttonFontSize: kButtonCaptionFontSize,
+                buttonFontWeight: kButtonCaptionFontWeight,
+              ),
             ),
-            TextButtonWidget(
-              buttonCaption: 'All Rights Reserved',
-              buttonCaptionColour: kWhiteColor,
-              buttonFontSize: kButtonCaptionFontSize,
-              buttonFontWeight: kButtonCaptionFontWeight,
+            Expanded(
+              child: TextButtonWidget(
+                buttonCaption: 'All Rights Reserved',
+                buttonCaptionColour: kWhiteColor,
+                buttonFontSize: kButtonCaptionFontSize,
+                buttonFontWeight: kButtonCaptionFontWeight,
+              ),
             ),
           ],
         ),
