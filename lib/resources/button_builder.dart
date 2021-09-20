@@ -135,14 +135,17 @@ class TextButtonWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return FittedBox(
-      fit: BoxFit.scaleDown,
-      child: Text(
-        buttonCaption,
-        style: TextStyle(
-            fontSize: buttonFontSize,
-            fontWeight: buttonFontWeight,
-            color: buttonCaptionColour),
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: FittedBox(
+        fit: BoxFit.scaleDown,
+        child: Text(
+          buttonCaption,
+          style: TextStyle(
+              fontSize: buttonFontSize,
+              fontWeight: buttonFontWeight,
+              color: buttonCaptionColour),
+        ),
       ),
     );
   }
